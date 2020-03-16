@@ -61,3 +61,6 @@ crashlytics-build.properties
 # Mac Finder index file
 .DS_Store
 
+# Project resources
+/raw
+

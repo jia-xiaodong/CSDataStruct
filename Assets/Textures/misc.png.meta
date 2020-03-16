@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 2c5e3c0501d714ee4afcc87700044ae4
-timeCreated: 1582768620
+timeCreated: 1582971190
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: btn_blue
+    21300002: btn_grey
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -82,13 +83,26 @@ TextureImporter:
       name: btn_blue
       rect:
         serializedVersion: 2
-        x: 11
-        y: 956
-        width: 202
+        x: 0
+        y: 966
+        width: 203
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: btn_grey
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 907
+        width: 203
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []

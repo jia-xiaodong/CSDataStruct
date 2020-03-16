@@ -1,10 +1,20 @@
 fileFormatVersion: 2
 guid: d6ba6a87745fe4d63a938cc541fbbf38
-timeCreated: 1582770411
+timeCreated: 1584267870
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: background
+    21300002: sidebar
+    21300004: edit_frame
+    21300006: tray
+    21300008: edit_frame
+    21300010: tray
+    21300012: map_beijing
+    21300014: background_grey
+    21300016: bar_white
+    21300018: map_china
+    21300020: tab_grey
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -83,9 +93,180 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 998
-        width: 1680
-        height: 1050
+        y: 1484
+        width: 1006
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 504, y: -282}
+        - {x: 504, y: 282}
+        - {x: -504, y: 282}
+        - {x: -504, y: -282}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sidebar
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1484
+        width: 220
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -110, y: 282}
+        - {x: -110, y: -282}
+        - {x: 110, y: -282}
+        - {x: 110, y: 282}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edit_frame
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1158
+        width: 607
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -303.5, y: 162.5}
+        - {x: -303.5, y: -162.5}
+        - {x: 303.5, y: -162.5}
+        - {x: 303.5, y: 162.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tray
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1261
+        width: 350
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -175, y: 110}
+        - {x: -175, y: -110}
+        - {x: 175, y: -110}
+        - {x: 175, y: 110}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edit_frame
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1158
+        width: 607
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -303.5, y: 162.5}
+        - {x: -303.5, y: -162.5}
+        - {x: 303.5, y: -162.5}
+        - {x: 303.5, y: 162.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tray
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1261
+        width: 350
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -175, y: 110}
+        - {x: -175, y: -110}
+        - {x: 175, y: -110}
+        - {x: 175, y: 110}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: map_beijing
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 428
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -214, y: 158.5}
+        - {x: -214, y: -158.5}
+        - {x: 214, y: -158.5}
+        - {x: 214, y: 158.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: background_grey
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 882
+        width: 335
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -167.5, y: 137.5}
+        - {x: -167.5, y: -135.5}
+        - {x: -164.5, y: -137.5}
+        - {x: 167.5, y: -137.5}
+        - {x: 167.5, y: 137.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bar_white
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 876
+        width: 320
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -160, y: 1.5}
+        - {x: -160, y: -1.5}
+        - {x: 160, y: -1.5}
+        - {x: 160, y: 1.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: map_china
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 428
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -214, y: 158.5}
+        - {x: -214, y: -158.5}
+        - {x: 214, y: -158.5}
+        - {x: 214, y: 158.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tab_grey
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 840
+        width: 73
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
