@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d6ba6a87745fe4d63a938cc541fbbf38
-timeCreated: 1584267870
+timeCreated: 1585629802
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,12 @@ TextureImporter:
     21300016: bar_white
     21300018: map_china
     21300020: tab_grey
+    21300022: line_blue
+    21300024: arrow_blue
+    21300026: circle_red
+    21300028: plane
+    21300030: helicopter
+    21300032: helicopter2
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -268,7 +274,72 @@ TextureImporter:
         width: 73
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: line_blue
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 834
+        width: 75
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arrow_blue
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 823
+        width: 73
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: circle_red
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 857
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: plane
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 770
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: helicopter
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 723
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - beijing
   - china
+  - graph_node
+  - graph_edge
   layers:
   - Default
   - TransparentFX

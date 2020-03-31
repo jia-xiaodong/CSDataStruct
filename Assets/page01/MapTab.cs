@@ -8,7 +8,7 @@ public class MapTab : MonoBehaviour {
 	Image m_Map1;  // Beijing map, non-directional map
 	// Use this for initialization
 	void Start () {
-		Image[] maps = this.GetComponentsInChildren<Image> ();
+		Image[] maps = this.GetComponentsInChildren<Image> (true);
 		foreach (Image i in maps) {
 			if (i.CompareTag ("china"))
 				m_Map0 = i;
