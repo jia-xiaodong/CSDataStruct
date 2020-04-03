@@ -47,16 +47,6 @@ public class GraphNode : MonoBehaviour
 		set { m_Index = value; }
 	}
 
-	// to which graph this node is belonging.
-	public GeoGraph Parent {
-		get {
-			// todo: which one is correct?
-			GeoGraph parent1 = this.transform.parent.GetComponent<GeoGraph> ();
-			GeoGraph parent2 = this.transform.parent.gameObject.GetComponent<GeoGraph> ();
-			return parent1;
-		}
-	}
-
 	public bool Visited {
 		get { return m_visited; }
 		set { m_visited = value; }

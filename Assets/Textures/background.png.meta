@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d6ba6a87745fe4d63a938cc541fbbf38
-timeCreated: 1585629802
+timeCreated: 1585880568
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -21,6 +21,10 @@ TextureImporter:
     21300028: plane
     21300030: helicopter
     21300032: helicopter2
+    21300034: rect_pink
+    21300036: rect_orange
+    21300038: rect_red
+    21300040: bg_grey_shadow
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -340,6 +344,58 @@ TextureImporter:
         height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: rect_pink
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 177
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: rect_orange
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 449
+        width: 165
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: rect_red
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 450
+        width: 79
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_grey_shadow
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 700
+        width: 210
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

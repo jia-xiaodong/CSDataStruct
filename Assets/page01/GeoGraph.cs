@@ -173,4 +173,19 @@ public class GeoGraph : MonoBehaviour {
 	void ClearNodesMark () {
 		m_NodeTable.ForEach (n => n.Visited = false);
 	}
+
+	public void OnTabChanged (object sender, TabChangedEventArgs e) {
+		MapType thisGraph = MapType.MapBeijing;
+		if (string.Compare (gameObject.tag, "china", System.StringComparison.OrdinalIgnoreCase) == 0) {
+			thisGraph = MapType.MapChina;
+		}
+
+		bool isActive = (thisGraph == e.currentTab);
+		if (gameObject.activeSelf != isActive)
+			gameObject.SetActive (isActive);
+	}
+
+	public bool IsChinaMap {
+		get { return m_IsEdgeDirected; }
+	}
 }

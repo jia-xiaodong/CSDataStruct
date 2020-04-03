@@ -46,7 +46,7 @@ public class Plane : MonoBehaviour {
 	public void SetNewFlight (GraphNode destination) {
 		m_DepartPoint = m_Destination;  // old way-point as departing station
 		m_Destination = destination.transform;
-		Debug.Log ("[jxd] new destination: " + destination.Label);
+		//Debug.Log ("[jxd] new destination: " + destination.Label);
 		m_State = State.ROTATE;
 	}
 
@@ -65,7 +65,6 @@ public class Plane : MonoBehaviour {
 		move.Normalize ();
 		float magnitude = Mathf.Min (SPEED_FLY * Time.deltaTime, distance);
 		move = move * magnitude;
-		//
 		transform.Translate (move, Space.World); // what is Space.Self?
 	}
 
