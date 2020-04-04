@@ -9,9 +9,7 @@ public class QuizHelp : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (Validator == null) {
-			Validator = this.DefaultValidator;
-		}
+		InitValidator ();
 	}
 	
 	// Update is called once per frame
@@ -26,6 +24,12 @@ public class QuizHelp : MonoBehaviour {
 
 	public string GoodAnswer {
 		get { return m_Answer; }
+	}
+
+	protected void InitValidator () {
+		if (Validator == null) {
+			Validator = this.DefaultValidator;
+		}
 	}
 
 	public System.Func<string, string, bool> Validator {
@@ -53,5 +57,10 @@ public class QuizHelp : MonoBehaviour {
 		UserAnswer = GoodAnswer;
 		Image image = gameObject.GetComponent<Image> ();
 		image.color = Color.white;
+		//
+		QuizTwinHelp mirror = GetComponent<QuizTwinHelp> ();
+		if (mirror != null) {
+			mirror.DuplicateInput (GoodAnswer);
+		}
 	}
 }
