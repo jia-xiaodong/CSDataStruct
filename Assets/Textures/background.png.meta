@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d6ba6a87745fe4d63a938cc541fbbf38
-timeCreated: 1585880568
+timeCreated: 1586008089
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -25,6 +25,76 @@ TextureImporter:
     21300036: rect_orange
     21300038: rect_red
     21300040: bg_grey_shadow
+    21300042: bg_blue_gradient
+    21300044: graph_1
+    21300046: capsule_gray
+    21300048: sidebar
+    21300050: edit_frame
+    21300052: tray
+    21300054: edit_frame
+    21300056: tray
+    21300058: map_beijing
+    21300060: background_grey
+    21300062: bar_white
+    21300064: map_china
+    21300066: tab_grey
+    21300068: line_blue
+    21300070: arrow_blue
+    21300072: circle_red
+    21300074: plane
+    21300076: helicopter
+    21300078: rect_pink
+    21300080: rect_orange
+    21300082: rect_red
+    21300084: bg_grey_shadow
+    21300086: bg_blue_gradient
+    21300088: graph_1
+    21300090: capsule_gray
+    21300092: edit_frame
+    21300094: tray
+    21300096: edit_frame
+    21300098: tray
+    21300100: map_beijing
+    21300102: background_grey
+    21300104: bar_white
+    21300106: map_china
+    21300108: tab_grey
+    21300110: line_blue
+    21300112: arrow_blue
+    21300114: circle_red
+    21300116: plane
+    21300118: helicopter
+    21300120: rect_pink
+    21300122: rect_orange
+    21300124: rect_red
+    21300126: bg_grey_shadow
+    21300128: bg_blue_gradient
+    21300130: graph_1
+    21300132: capsule_gray
+    21300134: sidebar
+    21300136: edit_frame
+    21300138: tray
+    21300140: edit_frame
+    21300142: tray
+    21300144: map_beijing
+    21300146: background_grey
+    21300148: bar_white
+    21300150: map_china
+    21300152: tab_grey
+    21300154: line_blue
+    21300156: arrow_blue
+    21300158: circle_red
+    21300160: plane
+    21300162: helicopter
+    21300164: rect_pink
+    21300166: rect_orange
+    21300168: rect_red
+    21300170: bg_grey_shadow
+    21300172: bg_blue_gradient
+    21300174: graph_1
+    21300176: capsule_gray
+    21300178: background_0
+    21300180: black_frame_gray
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -131,40 +201,6 @@ TextureImporter:
         - {x: -110, y: -282}
         - {x: 110, y: -282}
         - {x: 110, y: 282}
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: edit_frame
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1158
-        width: 607
-        height: 325
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -303.5, y: 162.5}
-        - {x: -303.5, y: -162.5}
-        - {x: 303.5, y: -162.5}
-        - {x: 303.5, y: 162.5}
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tray
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 1261
-        width: 350
-        height: 220
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -175, y: 110}
-        - {x: -175, y: -110}
-        - {x: 175, y: -110}
-        - {x: 175, y: 110}
       tessellationDetail: 0
     - serializedVersion: 2
       name: edit_frame
@@ -395,7 +431,59 @@ TextureImporter:
         width: 210
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_blue_gradient
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 341
+        width: 177
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: graph_1
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 541
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: capsule_gray
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 286
+        width: 431
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_frame_gray
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 642
+        width: 135
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

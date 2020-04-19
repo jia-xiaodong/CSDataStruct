@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/page01.unity
     guid: 9c01d577b822b4702b1791ce5223888d
+  - enabled: 1
+    path: Assets/page02.unity
+    guid: 2268c73eb8fbc4962a3cb65e43c04cb2
