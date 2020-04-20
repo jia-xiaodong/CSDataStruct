@@ -286,8 +286,8 @@ RectTransform:
   m_Father: {fileID: 2044766827}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.55307263}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -578,8 +578,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1639867686}
   m_HandleRect: {fileID: 1639867685}
   m_Direction: 0
-  m_Value: 0.0000012207031
-  m_Size: 0.9466314
+  m_Value: 0.000000240296
+  m_Size: 0.7773649
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -724,7 +724,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -803,9 +803,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 423399646}
-  - component: {fileID: 423399649}
   - component: {fileID: 423399648}
   - component: {fileID: 423399647}
+  - component: {fileID: 423399649}
   m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
@@ -828,9 +828,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &423399647
 MonoBehaviour:
@@ -873,10 +873,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 423399645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: -146154839, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
 --- !u!1 &506410763
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,9 +884,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 506410764}
-  - component: {fileID: 506410767}
   - component: {fileID: 506410766}
   - component: {fileID: 506410765}
+  - component: {fileID: 506410767}
   m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
@@ -910,9 +909,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &506410765
 MonoBehaviour:
@@ -955,10 +954,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 506410763}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: -146154839, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
 --- !u!1 &535489306
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,7 +974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &535489307
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1113,7 +1111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &668099013
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1232,9 +1230,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 20, y: -17}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &731422430
 MonoBehaviour:
@@ -1421,7 +1419,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000015258789, y: -0.0000050365925}
-  m_SizeDelta: {x: 25, y: 612}
+  m_SizeDelta: {x: 127, y: 709}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &797435531
 GameObject:
@@ -1549,8 +1547,8 @@ RectTransform:
   m_Father: {fileID: 1980003560}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.29302323}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1867,8 +1865,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -0.5}
-  m_SizeDelta: {x: 460, y: 605}
+  m_AnchoredPosition: {x: 0.000015258789, y: 46}
+  m_SizeDelta: {x: 570, y: 610.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035449863
 MonoBehaviour:
@@ -1891,7 +1889,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1904,12 +1902,12 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "<color=green>// \u521B\u5EFA\u94FE\u8868</color>\n<color=purple>void</color>
     GraphList_create(<color=blue>GraphList</color> *g){\n    printf(<color=red>\"\u8BF7\u5206\u522B\u8F93\u5165\u56FE\u7684\u9876\u70B9\u6570\u91CF\u548C\u8FB9\u7684\u6570\u91CF\uFF0C\u7528\u7A7A\u683C\u9694\u5F00\uFF1A\"</color>);\n
-    \   <color=green>//\u5C06\u9876\u70B9\u6570\u91CF\u548C\u8FB9\u7684\u6570\u91CF\u5B58\u50A8\u5728\u7ED3\u6784\u4F53g\u4E2D\u76F8\u5E94\u7684\u53D8\u91CF</color>\n
-    \   scanf(<color=red>\"%d %d\"</color>, &g-><<color=blue>vertexNumber</color>,
-    &g-><color=blue>edgeNumber</color>);\n    <color=green>//\u4E3A\u52A8\u6001\u6570\u7EC4\u7533\u8BF7\u7A7A\u95F4</color>\n
-    \   g-><color=blue>vertex</color> = (<color=blue><color=blue>ListVertexNode</color></color>*)malloc(g-><color=blue>vertexNumber</color>
-    * <color=purple>sizeof</color>(<color=blue>ListVertexNode</color>));\n    <color=green>//\u521D\u59CB\u5316\u9876\u70B9\u6307\u7684\u7B2C\u4E00\u6761\u8FB9\uFF0C\u521D\u59CB\u5316\u4E3A\u7A7A</color>\n
-    \   <color=purple>for</color> (<color=purple>int</color> i = 0; i < g-><color=blue>edgeNumber</color>;
+    \   <color=green>//\u5C06\u9876\u70B9\u6570\u91CF\u548C\u8FB9\u7684\u6570\u91CF\u5B58\u50A8\u5728\u7ED3\u6784\u4F53g\u4E2D\u76F8\u5E94\u7684\u53D8\u91CF</color>\n<color=red>\u2460</color>
+    scanf(<color=red>\"%d %d\"</color>, &g-><color=blue>vertexNumber</color>, &g-><color=blue>edgeNumber</color>);\n
+    \   <color=green>//\u4E3A\u52A8\u6001\u6570\u7EC4\u7533\u8BF7\u7A7A\u95F4</color>\n<color=red>\u2461</color>
+    g-><color=blue>vertex</color> = (<color=blue><color=blue>ListVertexNode</color></color>*)malloc(g-><color=blue>vertexNumber</color>
+    * <color=purple>sizeof</color>(<color=blue>ListVertexNode</color>));\n    <color=green>//\u521D\u59CB\u5316\u9876\u70B9\u6307\u7684\u7B2C\u4E00\u6761\u8FB9\uFF0C\u521D\u59CB\u5316\u4E3A\u7A7A</color>\n<color=red>\u2462</color>
+    <color=purple>for</color> (<color=purple>int</color> i = 0; i < g-><color=blue>edgeNumber</color>;
     i++){\n        g-><color=blue>vertex[i]</color>.<color=blue>firstEdge</color>
     = <color=purple>NULL</color>;\n    }\n\n    <color=green>//\u8F93\u5165\u56FE\u7684\u4FE1\u606F</color>\n
     \   <color=blue>ListEdgeNode</color> *listEdgeNode;\n    <color=purple>for</color>
@@ -1922,13 +1920,14 @@ MonoBehaviour:
     = g-><color=blue>vertex[i]</color>.<color=blue>firstEdge</color>;\n        g-><color=blue>vertex[i]</color>.<color=blue>firstEdge</color>
     = listEdgeNode;\n\n        <color=green>//\u5C06\u8282\u70B9\u653E\u5728\u9876\u70B9\u7684\u7B2C\u4E00\u6761\u8FB9</color>\n
     \       listEdgeNode = (<color=blue>ListEdgeNode</color>*)malloc(<color=purple>sizeof</color>(<color=blue>ListEdgeNode</color>));\n
-    \       listEdgeNode-><color=blue>index</color> = i;\n        listEdgeNode-><color=blue>next</color>
-    = g-><color=blue>vertex[j]</color>.<color=blue>firstEdge</color>;\n        g-><color=blue>vertex[j]</color>.<color=blue>firstEdge</color>
-    = listEdgeNode;\n    }\n\n    <color=green>//\u8F93\u51FA\u56FE\u7684\u4FE1\u606F</color>\n
-    \   <color=blue>ListEdgeNode</color> * len = <color=purple>NULL</color>;\n    <color=purple>for</color>
-    (<color=purple>int</color> i = 0; i < g-><color=blue>vertexNumber</color>; i++){\n
-    \       <color=purple>if</color> (g-><color=blue>vertex[i]</color>.<color=blue>firstEdge</color>
-    != <color=purple>NULL</color>)\n            len = g-><color=blue>vertex[i]</color>.<color=blue>firstEdge</color>;\n
+    \       listEdgeNode-><color=blue>index</color> = i;\n<color=red>\u2463</color>
+    \    listEdgeNode-><color=blue>next</color> = g-><color=blue>vertex[j]</color>.<color=blue>firstEdge</color>;\n<color=red>\u2464</color>
+    \    g-><color=blue>vertex[j]</color>.<color=blue>firstEdge</color> = listEdgeNode;\n
+    \   }\n\n    <color=green>//\u8F93\u51FA\u56FE\u7684\u4FE1\u606F</color>\n    <color=blue>ListEdgeNode</color>
+    * len = <color=purple>NULL</color>;\n    <color=purple>for</color> (<color=purple>int</color>
+    i = 0; i < g-><color=blue>vertexNumber</color>; i++){\n        <color=purple>if</color>
+    (g-><color=blue>vertex[i]</color>.<color=blue>firstEdge</color> != <color=purple>NULL</color>)\n
+    \           len = g-><color=blue>vertex[i]</color>.<color=blue>firstEdge</color>;\n
     \       <color=purple>while</color> (len!= <color=purple>NULL</color>){\n            printf(<color=red>\"%d
     --- %d\\t\"</color>, i,len-><color=blue>index</color>);\n            len = len-><color=blue>next</color>;\n
     \       }\n        printf(<color=red>\"\\n\"</color>);\n    }\n}"
@@ -1946,9 +1945,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1066494722}
-  - component: {fileID: 1066494725}
   - component: {fileID: 1066494724}
   - component: {fileID: 1066494723}
+  - component: {fileID: 1066494725}
   m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
@@ -2016,10 +2015,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1066494721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: -146154839, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
 --- !u!1 &1080420515
 GameObject:
   m_ObjectHideFlags: 0
@@ -2819,9 +2817,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 20, y: -17}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1397710339
 MonoBehaviour:
@@ -3119,7 +3117,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3477,9 +3475,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: -17, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1678477318
 MonoBehaviour:
@@ -3807,9 +3805,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: -17, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1985930065
 MonoBehaviour:
@@ -3966,7 +3964,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1236330737}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.26143792
+  m_Size: 0.22566995
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
