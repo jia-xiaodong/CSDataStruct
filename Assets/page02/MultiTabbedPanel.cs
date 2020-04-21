@@ -10,10 +10,15 @@ public class MultiTabbedPanel : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		buttons = this.GetComponentsInChildren<Button> ();
-		for (int i = 0; i < buttons.Length; i++) {
-			panels[i] = buttons [i].GetComponentInChildren<ScrollRect> (true);
-			int j = i;  // lambda trick: capture value immediately
-			buttons [i].onClick.AddListener (() => this.SetPanelActive (j));
+		int index = 0;
+		foreach (var btn in buttons) {
+			ScrollRect scrollView = btn.GetComponentInChildren<ScrollRect> (true);
+			if (scrollView == null) {
+				continue;
+			}
+			panels [index] = scrollView;
+			int immediate_index = index++;  // lambda trick: capture value immediately
+			btn.onClick.AddListener (() => this.SetPanelActive (immediate_index));
 		}
 		SetPanelActive (0);
 	}
