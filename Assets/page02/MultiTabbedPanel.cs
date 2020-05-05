@@ -4,14 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MultiTabbedPanel : MonoBehaviour {
-	Button[] buttons = new Button[3];
 	ScrollRect[] panels = new ScrollRect[3];
 
 	// Use this for initialization
 	void Start () {
-		buttons = this.GetComponentsInChildren<Button> ();
+		Button[] buttons = this.GetComponentsInChildren<Button> (true);
 		int index = 0;
 		foreach (var btn in buttons) {
+			if (!btn.tag.StartsWith ("my_tag_"))
+				continue;
 			ScrollRect scrollView = btn.GetComponentInChildren<ScrollRect> (true);
 			if (scrollView == null) {
 				continue;
@@ -28,7 +29,7 @@ public class MultiTabbedPanel : MonoBehaviour {
 		
 	}
 
-	void SetPanelActive (int index) {
+	public void SetPanelActive (int index) {
 		for (int i = 0; i < 3; i++) {
 			if (index == i) {
 				panels [i].gameObject.SetActive (true);
