@@ -38,25 +38,27 @@ public class QuizHelp : MonoBehaviour {
 	}
 
 	protected bool DefaultValidator (string userAnswer, string goodAnswer) {
-		return (string.Compare (userAnswer, goodAnswer, true) == 0);
+		return (string.Compare (userAnswer, goodAnswer, false) == 0);
 	}
 
 	/* Check if InputField has correct answer.
 	 * @return true if no error is found.
 	 */
 	public bool Validate () {
-		string answer1 = UserAnswer.Trim ().ToLower ();
-		string answer2 = GoodAnswer.Trim ().ToLower ();
+		string answer1 = UserAnswer.Trim ();
+		string answer2 = GoodAnswer.Trim ();
 		bool correct = m_Validator (answer1, answer2);
 		Image image = gameObject.GetComponent<Image> ();
-		image.color = correct ? Color.white : Color.red;
+		Color bg = new Color (image.color.r, image.color.g, image.color.b, correct ? 0.0F : 1.0F);
+		image.color = bg;
 		return correct;
 	}
 
 	public void ShowGoodAnswer () {
 		UserAnswer = GoodAnswer;
 		Image image = gameObject.GetComponent<Image> ();
-		image.color = Color.white;
+		Color bg = new Color (image.color.r, image.color.g, image.color.b, 0.0F);
+		image.color = bg;
 		//
 		QuizTwinHelp mirror = GetComponent<QuizTwinHelp> ();
 		if (mirror != null) {

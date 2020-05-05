@@ -8,6 +8,10 @@ TagManager:
   - china
   - graph_node
   - graph_edge
+  - my_tag_1
+  - my_tag_2
+  - my_tag_3
+  - my_tag_4
   layers:
   - Default
   - TransparentFX
